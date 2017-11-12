@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = function(app){
     app.get("/", function (req, res) {
+            console.log("Displaing home page");
             res.sendFile(path.join(__dirname + "/../public/home.html"));
     });
 
@@ -13,7 +14,7 @@ module.exports = function(app){
         res.sendFile(path.join(__dirname + "/../public/shows.html"));
     });
 
-    app.get(function (req, res) {
+    app.get("/", function (req, res) {
         res.sendFile(path.join(__dirname + "/../public/404.html"));
     });
 };
