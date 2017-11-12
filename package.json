@@ -1,0 +1,30 @@
+{
+  "name": "mamayo_refactored",
+  "version": "1.0.0",
+  "description": "A website for a steel pan band. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icarusoncloud9/mamayo_refactored.git"
+  },
+  "keywords": [
+    "steel",
+    "pan",
+    "band",
+    "npm",
+    "node"
+  ],
+  "author": "Joaquin Melara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Icarusoncloud9/mamayo_refactored/issues"
+  },
+  "homepage": "https://github.com/Icarusoncloud9/mamayo_refactored#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
