@@ -1,12 +1,12 @@
 // PLUGGING IN DEPENDENCIES
-const express = require("express");
-const app = express();
-const path = require("path");
-const bodyParser = require("body-parser");
-const PORT = 4000 || process.env.PORT;
+var express = require("express");
+var app = express();
+var path = require("path");
+var bodyParser = require("body-parser");
+var PORT = process.env.PORT || 4000;
 
 // PLUGGING IN MIDDLEWARE
-app.use("/", express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
