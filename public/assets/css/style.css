@@ -53,6 +53,14 @@ p {
     height: 1050px;
     width: auto;
     padding-bottom: 50px;
+    transform: rotate(180deg);
+}
+
+#we {
+    height: auto;
+    width: auto;
+    padding-bottom: 50px;
+    transform: rotate(180deg);
 }
 
 .parallax-container .section {
@@ -90,6 +98,20 @@ footer.page-footer {
     animation-iteration-count: infinite;
     font-family: 'Permanent Marker', cursive;
     font-size: 135px;
+    margin: 0;
+}
+
+#mama_yo_equipment {
+    color: red;
+    -webkit-animation-name: mama;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: mama;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 105px;
     margin: 0;
 }
 
