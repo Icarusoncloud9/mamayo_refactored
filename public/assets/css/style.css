@@ -211,6 +211,8 @@ footer.page-footer {
         width: 100%;
     }
     #img_1,
+    #img_2,
+    #img_3,
     #img_4 {
         height: 800px;
         width: auto;
@@ -233,6 +235,8 @@ footer.page-footer {
         height: 600px;
     }
     #img_1,
+    #img_2,
+    #img_3,
     #img_4 {
         height: 80%;
         width: auto;
@@ -259,6 +263,8 @@ footer.page-footer {
         margin-bottom: 30px;
     }
     #img_1,
+    #img_2,
+    #img_3,
     #img_4 {
         height: 600px;
         width: auto;
@@ -267,6 +273,10 @@ footer.page-footer {
     #mama_yo {
         margin: auto;
         font-size: 70px;
+    }
+    #mama_yo_equipment {
+        margin: auto;
+        font-size: 60px;
     }
     #title {
         width: 100%;
@@ -288,6 +298,10 @@ footer.page-footer {
         font-size: 75px;
         padding: 0;
     }
+    #mama_yo_equipment {
+        margin: auto;
+        font-size: 50px;
+    }
     #mama_yo {
         font-size: 65px;
     }
@@ -295,6 +309,8 @@ footer.page-footer {
         font-size: 45px;
     }
     #img_1,
+    #img_2,
+    #img_3,
     #img_4 {
         height: 400px;
         width: auto;
@@ -309,6 +325,10 @@ footer.page-footer {
     #index-banner .section {
         position: 0 0 0 0;
         top: 40%;
+    }
+    #mama_yo_equipment {
+        margin: auto;
+        font-size: 40px;
     }
     #mama_yo {
         font-size: 50px;
