@@ -224,11 +224,39 @@ footer.page-footer {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    #index-banner {
+        position: 0 0 0 0;
+        top: 10%;
+        margin-bottom: 30px;
+        height: 600px;
+    }
+    #img_1 {
+        height: 600px;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    #mama_yo {
+        margin: auto;
+        font-size: 70px;
+    }
+    #title {
+        width: 100%;
+        font-size: 75px;
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #index-banner {
         position: 0 0 0 0;
         top: 10%;
         margin-bottom: 30px;
+    }
+    #img_1 {
+        height: 600px;
+        width: auto;
+        padding-bottom: 50px;
     }
     #mama_yo {
         margin: auto;
