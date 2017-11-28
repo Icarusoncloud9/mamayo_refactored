@@ -210,7 +210,8 @@ footer.page-footer {
         padding: 0;
         width: 100%;
     }
-    #img_1 {
+    #img_1,
+    #img_4 {
         height: 800px;
         width: auto;
         padding-bottom: 50px;
@@ -231,7 +232,8 @@ footer.page-footer {
         margin-bottom: 30px;
         height: 600px;
     }
-    #img_1 {
+    #img_1,
+    #img_4 {
         height: 80%;
         width: auto;
         padding-bottom: 50px;
@@ -256,7 +258,8 @@ footer.page-footer {
         top: 10%;
         margin-bottom: 30px;
     }
-    #img_1 {
+    #img_1,
+    #img_4 {
         height: 600px;
         width: auto;
         padding-bottom: 50px;
@@ -291,7 +294,8 @@ footer.page-footer {
     #steel_band {
         font-size: 45px;
     }
-    #img_1 {
+    #img_1,
+    #img_4 {
         height: 400px;
         width: auto;
         padding-bottom: 50px;
