@@ -232,7 +232,7 @@ footer.page-footer {
         height: 600px;
     }
     #img_1 {
-        height: 600px;
+        height: 80%;
         width: auto;
         padding-bottom: 50px;
     }
@@ -244,6 +244,9 @@ footer.page-footer {
         width: 100%;
         font-size: 75px;
         padding: 0;
+    }
+    .parallax {
+        height: 600px;
     }
 }
 
@@ -267,12 +270,20 @@ footer.page-footer {
         font-size: 75px;
         padding: 0;
     }
+    .parallax {
+        height: 525px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     #index-banner .section {
         position: 0 0 0 0;
-        top: 30%;
+        /* top: 30%; */
+    }
+    #title {
+        width: 100%;
+        font-size: 75px;
+        padding: 0;
     }
     #mama_yo {
         font-size: 65px;
@@ -281,9 +292,12 @@ footer.page-footer {
         font-size: 45px;
     }
     #img_1 {
-        height: 500px;
+        height: 400px;
         width: auto;
         padding-bottom: 50px;
+    }
+    .parallax {
+        height: 425px;
     }
 }
 
