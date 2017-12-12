@@ -210,6 +210,11 @@ footer.page-footer {
         padding: 0;
         width: 100%;
     }
+    #we {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
     #img_1,
     #img_2,
     #img_3,
@@ -224,6 +229,9 @@ footer.page-footer {
         margin: auto;
         height: 100%;
         z-index: -1003;
+    }
+    .normalized_text {
+        font-size: 45px;
     }
 }
 
@@ -253,6 +261,9 @@ footer.page-footer {
     }
     .parallax {
         height: 600px;
+    }
+    .normalized_text {
+        font-size: 25px;
     }
 }
 
@@ -285,6 +296,9 @@ footer.page-footer {
     }
     .parallax {
         height: 525px;
+    }
+    .normalized_text {
+        font-size: 21px;
     }
 }
 
@@ -319,6 +333,9 @@ footer.page-footer {
     .parallax {
         height: 425px;
     }
+    .normalized_text {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -340,5 +357,8 @@ footer.page-footer {
         width: 100%;
         font-size: 75px;
         padding: 0;
+    }
+    .normalized_text {
+        font-size: 13px;
     }
 }
